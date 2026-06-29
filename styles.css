@@ -331,9 +331,9 @@ h3 { font-size: 1.05rem; }
 }
 
 .portrait-badge {
-  position: absolute;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   padding: 10px 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -346,8 +346,13 @@ h3 { font-size: 1.05rem; }
   font-weight: 800;
 }
 
-.badge-one { top: 42px; left: 0; }
-.badge-two { right: 0; bottom: 150px; }
+.portrait-badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
 
 .center-card,
 .orbit {
@@ -635,8 +640,6 @@ h3 { font-size: 1.05rem; }
     justify-self: center;
   }
   .portrait-panel { justify-self: center; margin-top: 8px; }
-  .badge-one { left: 8px; }
-  .badge-two { right: 8px; }
 }
 
 @media (max-width: 760px) {
@@ -693,10 +696,9 @@ h3 { font-size: 1.05rem; }
     padding: 14px;
   }
   .portrait-badge {
-    position: static;
-    width: min(100%, 300px);
-    margin: 10px auto 0;
-    justify-content: center;
+    flex: 1 1 140px;
+    width: auto;
+    margin: 0;
   }
   .pill-grid,
   .four,
