@@ -61,8 +61,10 @@ async function loadProjects() {
 
 function renderProject(project) {
   const isLive = project.status.toLowerCase().includes("live");
-  const target = project.url === "#" ? "" : ' target="_blank" rel="noopener"';
-  const actionText = isLive ? "Visit Website" : "View Details";
+  const hasLiveUrl = project.url && project.url !== "#";
+  const href = hasLiveUrl ? project.url : "#contact";
+  const target = hasLiveUrl ? ' target="_blank" rel="noopener"' : "";
+  const actionText = isLive ? "Visit Website" : "Discuss Project";
   const futureUrl = project.futureUrl ? `<p class="future-url">Future subdomain: ${project.futureUrl}</p>` : "";
 
   return `
@@ -75,7 +77,7 @@ function renderProject(project) {
       <p class="category">${project.category}</p>
       <p>${project.description}</p>
       ${futureUrl}
-      <a class="btn btn-gold project-action" href="${project.url}"${target} aria-label="${actionText}: ${project.title}">
+      <a class="btn btn-gold project-action" href="${href}"${target} aria-label="${actionText}: ${project.title}">
         ${actionText}
         <span class="icon" data-icon="external"></span>
       </a>
