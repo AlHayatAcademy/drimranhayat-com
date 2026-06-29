@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Dr Imran Hayat website preview">
+  <rect width="1200" height="630" fill="#0b1f3a"/>
+  <path d="M0 520c130-80 250-116 360-108 125 9 202 76 335 68 144-8 232-96 378-92 49 1 91 13 127 31v211H0Z" fill="#12345a"/>
+  <circle cx="945" cy="145" r="125" fill="#246f68" opacity=".32"/>
+  <circle cx="1010" cy="190" r="86" fill="#d6ad60" opacity=".22"/>
+  <rect x="90" y="86" width="1020" height="458" rx="18" fill="none" stroke="#d6ad60" stroke-width="3" opacity=".55"/>
+  <text x="120" y="235" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">Dr Imran Hayat</text>
+  <text x="124" y="310" fill="#dbe7f0" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Educator, Researcher &amp; Digital Learning Platform Builder</text>
+  <text x="124" y="382" fill="#d6ad60" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Academic portfolio and learning ecosystem hub</text>
+  <g transform="translate(875 250)" fill="none" stroke="#d6ad60" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="0" r="32"/>
+    <circle cx="110" cy="28" r="32"/>
+    <circle cx="48" cy="112" r="32"/>
+    <path d="M31 8l48 12M12 30l25 55M91 56l-26 32"/>
+  </g>
+</svg>

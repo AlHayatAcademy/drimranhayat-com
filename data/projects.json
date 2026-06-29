@@ -1,0 +1,63 @@
+[
+  {
+    "title": "O Level Islamiyat 2058",
+    "category": "Cambridge / Islamiyat",
+    "description": "Cambridge O Level / IGCSE Islamiyat learning resources, notes, past-paper support, and exam preparation.",
+    "url": "https://olevel-islamiyat.drimranhayat.com",
+    "status": "Live",
+    "icon": "book-open"
+  },
+  {
+    "title": "Al-Hayat Islamic Studies Hub",
+    "category": "Islamic Studies",
+    "description": "A structured Islamic Studies platform covering Qur'an, Hadith, Fiqh, Seerah, Aqeedah, and related disciplines.",
+    "url": "#",
+    "futureUrl": "https://islamicstudies.drimranhayat.com",
+    "status": "Planned / In Development",
+    "icon": "mosque"
+  },
+  {
+    "title": "Al-Hayat Qur'anic Studies Hub",
+    "category": "Qur'anic Studies",
+    "description": "A dedicated Qur'anic Studies platform for Qur'an, Ulum al-Qur'an, tafsir-related learning, and structured Q&A.",
+    "url": "#",
+    "futureUrl": "https://quran.drimranhayat.com",
+    "status": "Planned / In Development",
+    "icon": "scroll"
+  },
+  {
+    "title": "Al-Hayat Hadith Studies Hub",
+    "category": "Hadith Studies",
+    "description": "A dedicated Hadith and Ulum al-Hadith learning platform with structured scholarly content.",
+    "url": "#",
+    "futureUrl": "https://hadith.drimranhayat.com",
+    "status": "Planned / In Development",
+    "icon": "library"
+  },
+  {
+    "title": "Al-Hayat AptitudePrep",
+    "category": "Aptitude / Test Preparation",
+    "description": "A complete aptitude preparation platform for entry tests, competitive exams, practice questions, mock tests, vocabulary, reasoning, and skill-based preparation.",
+    "url": "https://al-hayat-aptitudeprep.drimranhayat.com",
+    "status": "Live",
+    "icon": "target"
+  },
+  {
+    "title": "Al-Hayat Kids Learning Hub",
+    "category": "Kids Learning",
+    "description": "A child-friendly learning website for ages 3-8 with English, Math, Science, Arabic, Islamic Studies, and activities.",
+    "url": "#",
+    "futureUrl": "https://kids.drimranhayat.com",
+    "status": "Planned / In Development",
+    "icon": "sparkles"
+  },
+  {
+    "title": "Al-Hayat Kids Islam",
+    "category": "Kids Islamic Learning",
+    "description": "A child-friendly Islamic learning platform with age-based lessons, Q&A, MCQs, and simple explanations.",
+    "url": "#",
+    "futureUrl": "https://kidsislam.drimranhayat.com",
+    "status": "Planned / In Development",
+    "icon": "heart"
+  }
+]
